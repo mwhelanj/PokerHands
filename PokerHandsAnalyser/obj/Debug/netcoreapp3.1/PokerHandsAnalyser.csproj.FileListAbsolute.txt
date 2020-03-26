@@ -8,3 +8,4 @@ C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\obj\Debug\netcoreapp3.1\PokerHandsA
 C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\obj\Debug\netcoreapp3.1\PokerHandsAnalyser.AssemblyInfo.cs
 C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\obj\Debug\netcoreapp3.1\PokerHandsAnalyser.dll
 C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\obj\Debug\netcoreapp3.1\PokerHandsAnalyser.pdb
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\obj\Debug\netcoreapp3.1\PokerHandsAnalyser.csprojAssemblyReference.cache

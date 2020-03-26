@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -15,18 +14,20 @@ namespace PokerHandsAnalyser
             // read embedded resource -poker-hands.txt
             var assembly = typeof(Program).GetTypeInfo().Assembly;
             Stream resource = assembly.GetManifestResourceStream("PokerHandsAnalyser.InputFiles.poker-hands.txt");
+            var game = new PokerGame(); // start game
 
             using (StreamReader reader = new StreamReader(resource))
             {
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    var game = line.Split(" ").ToList();
-                    var hand1 = game.Take(5);
-                    var hand2 = game.Skip(5);
-                    Console.WriteLine("\t" + "Player 1 hand: " + string.Join("", hand1) + " Player 2 hand: " + string.Join("", hand2));
+                    var cardDelt = line.Split(" ").ToList();
+                    game.Play(cardDelt); // deal out cards
                 }
             }
+            // Print final results
+            Console.WriteLine("\t" + "Player one score: " + game.PlayerOne.Score);
+            Console.WriteLine("\t" + "Player two score: " + game.PlayerTwo.Score);
 
             // Keep the console window open in debug mode.
             Console.WriteLine("Press any key to exit.");
