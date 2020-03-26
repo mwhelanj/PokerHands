@@ -5,4 +5,14 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="InputFiles\poker-hands.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="InputFiles\poker-hands.txt">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

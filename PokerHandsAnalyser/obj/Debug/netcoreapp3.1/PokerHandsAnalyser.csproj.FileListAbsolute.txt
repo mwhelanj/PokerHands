@@ -1,0 +1,11 @@
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\bin\Debug\netcoreapp3.1\PokerHandsAnalyser.exe
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\bin\Debug\netcoreapp3.1\PokerHandsAnalyser.deps.json
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\bin\Debug\netcoreapp3.1\PokerHandsAnalyser.runtimeconfig.json
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\bin\Debug\netcoreapp3.1\PokerHandsAnalyser.runtimeconfig.dev.json
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\bin\Debug\netcoreapp3.1\PokerHandsAnalyser.dll
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\bin\Debug\netcoreapp3.1\PokerHandsAnalyser.pdb
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\obj\Debug\netcoreapp3.1\PokerHandsAnalyser.AssemblyInfoInputs.cache
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\obj\Debug\netcoreapp3.1\PokerHandsAnalyser.AssemblyInfo.cs
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\obj\Debug\netcoreapp3.1\PokerHandsAnalyser.dll
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\obj\Debug\netcoreapp3.1\PokerHandsAnalyser.pdb
+C:\Git\PokerHandsAnalyser\PokerHandsAnalyser\obj\Debug\netcoreapp3.1\PokerHandsAnalyser.csprojAssemblyReference.cache
